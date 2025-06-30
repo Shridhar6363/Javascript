@@ -16,17 +16,17 @@
 
             if (true) {
                 let blockVar = "I am inside if block"; // Block Scope
-                document.write(blockVar+"<br>");// ✅ Works
+                document.write(blockVar+"<br>");// Works
             }
 
-               document.write(functionVar+"<br>");/// ✅ Works
-           // document.write(blockVar); // ❌ Error: blockVar not accessible here
+               document.write(functionVar+"<br>");///  Works
+           // document.write(blockVar); // Error: blockVar not accessible here
         }
 
         testScope();
 
-        document.write(globalVar+"<br>");/// ✅ Works
-        //document.write(functionVar); // ❌ Error: functionVar not accessible here
+        document.write(globalVar+"<br>");/// Works
+        //document.write(functionVar); //  Error: functionVar not accessible here
  </script>
  
 </body>
